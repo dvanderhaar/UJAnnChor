@@ -1,4 +1,4 @@
-#AnnChor Dataset :ballet_shoes:
+# AnnChor Dataset :ballet_shoes:
 
 A video dataset for temporal action localization in ballet choreography based on ballet actions found in the videos of solo ballet performances. 
 
