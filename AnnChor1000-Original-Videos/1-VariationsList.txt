@@ -1,2 +1,55 @@
-List of variation IDs and names:
+List of variation IDs Names | Ballet name
+ID : SOLO NAME : BALLET NAME
+ACM : Acteon variation (male) : Diana and Acteon
+ALB: Albrecht variation (male) :  Giselle
+AUR: Aurora variation (female)
+BAS: Bassilio variation (male)
+BLU:
+BRO:
+CAL:
+COL:
+CUP:
+DAA:
+DUL:
+ESM:
+FPF:
+FPM:
+FRA:
+GAM:
+GIS:
+GPM
+GUL:
+HAF:
+HAM:
+KIT:
+LA1:
+LA2:
+LA3:
+LAN:
+LCM:
+LFQ:
+LFS:
+LIF:
+LUC:
+NUP:
+OD1:
+OD2:
+ODA:
+PAA:
+PAR:
+PAV:
+PHD:
+QOD:
+RMT:
+SAT:
+SBP:
+SIE:
+SOL:
+SWA: Swanhilda variation (female)
+TCF:
+TCM:
+TMF:
+TMM:
+WAL:
+
 
