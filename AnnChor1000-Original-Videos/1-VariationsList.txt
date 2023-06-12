@@ -1,55 +1,53 @@
-List of variation IDs Names | Ballet name
+List of variation IDs, Names and Ballet productions in which each variation features.
 ID : SOLO NAME : BALLET NAME
-ACM : Acteon variation (male) : Diana and Acteon
-ALB: Albrecht variation (male) :  Giselle
-AUR: Aurora variation (female)
-BAS: Bassilio variation (male)
-BLU:
-BRO:
-CAL:
-COL:
-CUP:
-DAA:
-DUL:
-ESM:
-FPF:
-FPM:
-FRA:
-GAM:
-GIS:
-GPM
-GUL:
-HAF:
-HAM:
-KIT:
-LA1:
-LA2:
-LA3:
-LAN:
-LCM:
-LFQ:
-LFS:
-LIF:
-LUC:
-NUP:
-OD1:
-OD2:
-ODA:
-PAA:
-PAR:
-PAV:
-PHD:
-QOD:
-RMT:
-SAT:
-SBP:
-SIE:
-SOL:
-SWA: Swanhilda variation (female)
-TCF:
-TCM:
-TMF:
-TMM:
-WAL:
-
-
+ACM : Diana and Acteon variation (male) : Diana and Acteon Pas de Deux
+ALB : Albrecht variation (male) :  Giselle
+AUR : Aurora variation (female) : Sleeping Beauty
+BAS : Basilio variation (male) : Don Quixote
+BLU : Bluebird variation (female) : Sleeping
+BRO : Bridesmaid variation 1 (female) : Don Quixote
+CAL : Calvary Halt variation (female) : The Calvary Halt
+COL : Colas variation (male) : La Fille Mal Gardee
+CUP : Cupid variation (female) : Don Quixote
+DAA : Diana and Acteon variation (female) : Diana and Acteon Pas de Deux
+DUL : Dulcinea variation (female) : Don Quixote
+ESM : Esmeralda variation (female) : La Esmeralda
+FPF : Flames of Paris variation (female) : Flames of Paris
+FPM : Flames of Paris variation (male) : Flames of Paris
+FRA : Franz variation (male) : Coppelia
+GAM : Gamzatti variation (female) : La Bayadere
+GIS : Giselle variation (female) : Giselle
+GPM : Grand Pas Classique variation (male) : Paquita
+GUL : Gulnara variation (female) : Le Corsaire
+HAF : Harlequinade variation (female) : Harlequinade 
+HAM : Harlequinade variation (male) : Harlequinade
+KIT : Kitri variation (female) : Don Quixote
+LA1 : La Bayadere Shade 1 variation (female) : La Bayadere
+LA2 : La Bayadere Shade 2 variation (female) : La Bayadere
+LA3 : La Bayadere Shade 3 variation (female) : La Bayadere
+LAN : Lankedem variation (male) : Le Corsaire
+LCM : Le Corsaire variation (male) :  Le Corsaire
+LFQ : La Fille Mal Gardee Quick variation (female) : La Fille Mal Gardee
+LFS : La Fille Mal Gardee Slow variation (female) : La Fille Mal Gardee
+LIF : Lilac Fairy variation (female) : Sleeping Beauty
+LUC : Lucien variation (male) : Paquita
+NUP : Nutcracker Prince variation (male) : The Nutcracker
+OD1 : Odile version 1 variation (female) : Swan Lake
+OD2 : Odile version 2 variation (female) : Swan Lake
+ODA : Odalisque Pas de Trois 2nd variation (female) : Le Corsaire
+PAA : Paquita Arabesque variation (female) : Paquita
+PAR : Paquita Renverse variation (female) : Paquita
+PAV : Paquita Pas de Trois 1st variation (female) : Paquita
+PHD : Pharoah's Daughter variation (female) : Pharoah's Daughter
+QOD : Queen of the Dryads variation (female) : Don Quixote
+RMT : Raymonda Tableau variation (female) : Raymonda
+SAT : Satanella variation (male) : Satanella
+SBP : Sleeping Beauty Prince variation (male) : Sleeping Beauty
+SIE : Siegfried variation (male) : Swan Lake
+SOL : Solor variation (male) : La Bayadere
+SWA : Swanhilda variation (female) : Coppelia
+TCF : Tchaikovsky Pas de Deux variation (female) : Tchaikovsky Pas de Deux 
+TCM : Tchaikovsky Pas de Deux variation (male) : Tchaikovsky Pas de Deux
+TMF : Talisman variation (female) : The Talisman 
+TMM : Talismane variation (male) : The Talisman
+WAL : Walpurgis Night variation (female) : Walpurgisnacht
