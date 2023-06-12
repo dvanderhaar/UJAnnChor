@@ -1,6 +1,6 @@
 # AnnChor Dataset :ballet_shoes:
 
-A video dataset for temporal action localization in ballet choreography based on ballet actions found in the videos of solo ballet performances. 
+A video dataset consisting of ANNotated CHOReography for temporal action localization in ballet. The dataset is based on ballet actions found in the videos of solo ballet performances. 
 
 The full dataset comprises 1020 videos with over 24 600 temporal annotations for 11 action classes.
  
