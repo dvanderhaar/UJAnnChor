@@ -1,0 +1,8 @@
+VIA Video Annotator
+
+To download the VIA video annotator, please download the html annotator from the link below:
+https://www.robots.ox.ac.uk/~vgg/software/via/
+
+We provide a template project called:
+"AnnChorTemplate.json" which was used as a basis project with the necessary temporal classes loaded.
+The only thing that one needs to load into this project is the ballet videos you wish to annotate.
