@@ -1,0 +1,41 @@
+The sample clips contain clipped sequences of single or multiple occurrences of the same action class. 
+
+The pdf Annotation Guide clearly indicates the start and end frames for each class. The sample clips do not necessarily start and end at the exact specified temporal points as specified in the Guide and do not represent how annotations were done. The cips are rather provided to give users an idea of what the actions or a series of the actions look like.
+
+Here is a description for each clip and how it aligns with the way annotations were done:
+
+C00_Clip2.mp4:
+Extension Derriere - example clip as annotated.
+
+C02_Clip.mp4 
+Courus - example clip as annotated.
+
+C03_Clip.mp4 
+Echappes - the example shows a series of 3 Echappes one after the other.
+
+C04_Clip.mp4 
+Cabriole Devant - example clip as annotated.
+
+C06_Clip.mp4 
+Grand Jete - example clip starts slightly before specified annotated time starts.
+
+C08_Clip.mp4 
+Pirouette - example clip shows a series of 3 Pirouettes one after the other.
+
+C10_Clip.mp4 
+Sissonne Fermee the example shows a series of 3 Sissonne Fermees one after the other.
+
+C12_Clip.mp4 
+Extension Second: example clip carries on after annotated time ends (at height of the working leg).
+
+C14_Clip.mp4
+Tour en l'air - example clip as annotated.
+
+C15_Clip.mp4
+Cabriole Derriere - example clip starts slightly before specified annotated time starts.
+
+C17_Clip.mp4
+Waltz Step/Balance - example clip carries on a bit after annotated time ends.
+
+
+
