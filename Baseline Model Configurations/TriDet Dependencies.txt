@@ -1,0 +1,19 @@
+Extraction of I3D features:
+We used the following code: https://github.com/v-iashin/video_features
+We used the above code along with the following docker image: iashin/video_features
+
+TriDet code Dependencies:
+We used the following docker image to line up dependencies:
+pytorch/pytorch:1.11.0-cuda11.3-cudnn8-devel
+https://hub.docker.com/layers/pytorch/pytorch/1.11.0-cuda11.3-cudnn8-devel/images/sha256-9bfcfa72b6b244c1fbfa24864eec97fb29cfafc065999e9a9ba913fa1e690a02?context=explore
+
+Other dependencies (can be found in the requirements.txt file of the TriDet repository):
+h5py==3.7.0
+joblib==1.1.1
+matplotlib==3.5.2
+numpy==1.21.2
+pandas==1.4.2
+PyYAML==6.0
+scikit_learn==1.2.2
+scipy==1.8.1
+setuptools==58.0.4

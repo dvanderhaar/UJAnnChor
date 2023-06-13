@@ -1,2 +1,128 @@
 Coarse-Fine Model Configurations:
 
+The code for this model impementation was obtained from: https://github.com/kkahatapitiya/Coarse-Fine-Networks
+
+1. Coarse-Fine Model Configuration for the Full Length AnnChor260 Videos:
+	Update the following scripts to work with the dataset:
+	train_fine.py:
+		CHARADES_TR_SIZE = 208
+		CHARADES_VAL_SIZE = 52
+		CHARADES_ROOT = 'path_to_rgb_frames'
+		CHARADES_ANNO = 'data/AnnChor260-CF.json'
+		line 111: fine_net.replace_logits(11)
+	
+	charades_fine.py:
+		line 87: num_classes=11
+		
+	extract_fineFEAT.py:
+		CHARADES_TR_SIZE = 208
+		CHARADES_VAL_SIZE = 52
+		CHARADES_ROOT = 'path_to_rgb_frames'
+		CHARADES_ANNO = 'data/AnnChor260-CF.json'
+		FINE_SAVE_DIR = '/path_to_/save_fine_features'
+		line 101: fine_net.replace_logits(11)
+	
+	train_coarse_fineFEAT.py:
+		CHARADES_TR_SIZE = 208
+		CHARADES_VAL_SIZE = 52
+		CHARADES_ROOT = 'path_to_rgb_frames'
+		CHARADES_ANNO = 'data/AnnChor260-CF.json'
+		FINE_SAVE_DIR = '/path_to_/save_fine_features'
+		line 118: coarse_net.replace_logits(11)
+		
+	charades_coarse_fineFEAT.py:
+		line 92: num_classes=11
+	
+2. Coarse-Fine Model Configuration for the Full Length AnnChor1000 Videos:
+	Update the following scripts to work with the dataset:
+	train_fine.py:
+		CHARADES_TR_SIZE = 816
+		CHARADES_VAL_SIZE = 204
+		CHARADES_ROOT = 'path_to_rgb_frames'
+		CHARADES_ANNO = 'data/AnnChor1000-CF.json'
+		line 111: fine_net.replace_logits(11)
+	
+	charades_fine.py:
+		line 87: num_classes=11
+		
+	extract_fineFEAT.py:
+		CHARADES_TR_SIZE = 816
+		CHARADES_VAL_SIZE = 204
+		CHARADES_ROOT = 'path_to_rgb_frames'
+		CHARADES_ANNO = 'data/AnnChor1000-CF.json'
+		FINE_SAVE_DIR = '/path_to_/save_fine_features'
+		line 101: fine_net.replace_logits(11)
+	
+	train_coarse_fineFEAT.py:
+		CHARADES_TR_SIZE = 816
+		CHARADES_VAL_SIZE = 204
+		CHARADES_ROOT = 'path_to_rgb_frames'
+		CHARADES_ANNO = 'data/AnnChor1000-CF.json'
+		line 118: coarse_net.replace_logits(11)
+		
+	charades_coarse_fineFEAT.py:
+		line 92: num_classes=11
+
+
+3. Coarse-Fine Model Configuration for the Segmented AnnChor260 Videos:
+	Update the following scripts to work with the dataset:
+	train_fine.py:
+		CHARADES_TR_SIZE = 426
+		CHARADES_VAL_SIZE = 106
+		CHARADES_ROOT = 'path_to_rgb_frames'
+		CHARADES_ANNO = 'data/AnnChor260_segmented-CF.json'
+		line 111: fine_net.replace_logits(11)
+	
+	charades_fine.py:
+		line 87: num_classes=11
+		
+	extract_fineFEAT.py:
+		CHARADES_TR_SIZE = 426
+		CHARADES_VAL_SIZE = 106
+		CHARADES_ROOT = 'path_to_rgb_frames'
+		CHARADES_ANNO = 'data/AnnChor260_segmented-CF.json'
+		FINE_SAVE_DIR = '/path_to_/save_fine_features'
+		line 101: fine_net.replace_logits(11)
+	
+	train_coarse_fineFEAT.py:
+		CHARADES_TR_SIZE = 426
+		CHARADES_VAL_SIZE = 106
+		CHARADES_ROOT = 'path_to_rgb_frames'
+		CHARADES_ANNO = 'data/AnnChor260_segmented-CF.json'
+		line 118: coarse_net.replace_logits(11)
+		
+	charades_coarse_fineFEAT.py:
+		line 92: num_classes=11
+
+
+4. Coarse-Fine Model Configuration for the Segmented AnnChor1000 Videos:
+	Update the following scripts to work with the dataset:
+	train_fine.py:
+		CHARADES_TR_SIZE = 1605
+		CHARADES_VAL_SIZE = 399
+		CHARADES_ROOT = 'path_to_rgb_frames'
+		CHARADES_ANNO = 'data/AnnChor1000_segmented-CF.json'
+		line 111: fine_net.replace_logits(11)
+	
+	charades_fine.py:
+		line 87: num_classes=11
+		
+	extract_fineFEAT.py:
+		CHARADES_TR_SIZE = 1605
+		CHARADES_VAL_SIZE = 399
+		CHARADES_ROOT = 'path_to_rgb_frames'
+		CHARADES_ANNO = 'data/AnnChor1000_segmented-CF.json'
+		FINE_SAVE_DIR = '/path_to_/save_fine_features'
+		line 101: fine_net.replace_logits(11)
+	
+	train_coarse_fineFEAT.py:
+		CHARADES_TR_SIZE = 1605
+		CHARADES_VAL_SIZE = 399
+		CHARADES_ROOT = 'path_to_rgb_frames'
+		CHARADES_ANNO = 'data/AnnChor1000_segmented-CF.json'
+		line 118: coarse_net.replace_logits(11)
+		
+	charades_coarse_fineFEAT.py:
+		line 92: num_classes=11
+
+

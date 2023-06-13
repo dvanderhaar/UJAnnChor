@@ -1,2 +1,23 @@
 TriDet Model Configurations:
 
+The code for this model impementation was obtained from: https://github.com/dingfengshi/TriDet
+
+1. Tridet Model Configurations for the AnnChor260 Dataset:
+	Adapt the following for the the thumos_i3d.yaml configuration file:
+	train_split: ['training']
+	val_split: ['testing']
+	dataset: {
+	json_file: "/data/thumos/annotations/AnnChor260-TD.json",
+	feat_folder: "path_to/i3d_features",
+	num_classes: 11,
+	max_seq_len: 4608,
+	
+2. Tridet Model Configurations for the AnnChor1000 Dataset:
+	Adapt the following for the the thumos_i3d.yaml configuration file:
+	train_split: ['training']
+	val_split: ['testing']
+	dataset: {
+	json_file: "/data/thumos/annotations/AnnChor1000-TD.json",
+	feat_folder: "path_to/i3d_features",
+	num_classes: 11,
+	max_seq_len: 4608,

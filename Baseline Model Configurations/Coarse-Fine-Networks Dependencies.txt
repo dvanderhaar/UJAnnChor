@@ -1,0 +1,20 @@
+Coarse-Fine-Networks Dependencies:
+
+We used the following docker image to line up dependencies:
+pytorch/pytorch:1.9.0-cuda11.1-cudnn8-devel
+https://registry.hub.docker.com/layers/pytorch/pytorch/1.9.0-cuda11.1-cudnn8-devel/images/sha256-ed167cae955fa654cefc3663fc0c7b16ee9c8e7ed307cb03306d6ea7a9f7b37b?context=explore
+
+Other dependencies:
+Python 3.7.6
+
+PyTorch 1.7.0 (built from source, with this fix). This issue is fixed in PyTorch >= 1.9 releases.
+	We used Pytorch 1.9.0.
+	
+torchvision 0.8.0
+
+accimage 0.1.1
+	We used pil_loader instead of accimage.
+	In the charades_fine.py script:
+		replace lines 30-35 with return pil_loader(path)
+	
+pkbar 0.5
