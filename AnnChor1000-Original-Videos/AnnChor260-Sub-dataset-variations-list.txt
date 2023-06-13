@@ -1,0 +1,15 @@
+The videos that form part of the AnnChor260 dataset come from the following 13 variation folders:
+
+AUR
+BAS
+BRO
+HAM
+KIT
+LA1
+LA2
+LA3
+LUC
+PAR
+SIE
+SOL
+SWA
